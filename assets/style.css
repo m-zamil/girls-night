@@ -269,6 +269,7 @@ h3.section__title {
 /* -- packages -- */
 .pkgs .container {
   max-width: 428px;
+  max-width: 100%;
   padding: 0;
 }
 .pkgs__content {
@@ -460,8 +461,12 @@ ul.pkg__list {
 /* --Enhance-- */
 .enhance .container {
   max-width: 428px;
+  max-width: 100%;
   padding: 0;
   background-color: #f9d1da;
+}
+.enhance__image img {
+  width: 100%;
 }
 .enhance__content {
   max-width: 352px;
@@ -606,17 +611,19 @@ ul.pkg__list {
   /* --Hero Section-- */
   .hero {
     background-image: url("./images/hero-d-bg-1.png");
-    background-position: left bottom;
-    background-size: contain;
-    min-height: 740px;
+    background-position: left top;
+    background-size: 85%;
+    min-height: 765px;
     padding-top: 158px;
-    max-width: 1440px;
+    max-width: 1360px;
     margin: 0 auto;
   }
   .hero__content {
     transform: scale(1.1);
     transform-origin: left;
     max-width: 550px;
+    position: relative;
+    top: 40px;
   }
   .hero .hero__subtitle {
     font-size: 18px;
@@ -644,8 +651,9 @@ ul.pkg__list {
     padding-bottom: 50px;
   }
   .yay .container {
-    max-width: 1164px;
-    padding: 16px;
+    max-width: 1360px;
+    padding: 16px 0;
+    overflow: hidden;
   }
   .yay__wrapper {
     display: flex;
@@ -654,8 +662,11 @@ ul.pkg__list {
     order: 2;
     padding: 0;
     max-width: 394px;
+    margin: 0;
+    margin-left: 10%;
+    width: 40%;
   }
-  .yay__content,
+
   .yay__image {
     width: 50%;
   }
@@ -669,13 +680,13 @@ ul.pkg__list {
   }
   .yay__image img {
     top: -25px;
-    left: -194px;
-    width: 120%;
+    left: -185px;
+    width: 124%;
   }
 
   /* -- packages -- */
   .pkgs .container {
-    max-width: 1120px;
+    max-width: 1360px;
   }
   .pkgs__content {
     max-width: 100%;
@@ -731,11 +742,11 @@ ul.pkg__list {
     min-height: 125px;
   }
   .pkgs__note {
-    font-size: 14px;
+    font-size: 16px;
     margin: 68px auto -30px;
     padding-left: 24px;
-    margin-right: 0;
-    max-width: 470px;
+    margin-right: 30px;
+    max-width: 540px;
     border-left: 1px solid var(--pink);
   }
   /* -- .works -- */
@@ -848,6 +859,10 @@ ul.pkg__list {
     background-size: 130px;
     margin-top: 48px;
     margin-bottom: 48px;
+  }
+  .why .container {
+    max-width: 1360px;
+    overflow: hidden;
   }
   .why__wrapper {
     display: flex;
