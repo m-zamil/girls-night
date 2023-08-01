@@ -577,7 +577,7 @@ ul.pkg__list {
     font-size: 1.125rem;
   }
   main ul li {
-    font-size: 15px;
+    font-size: 16px;
   }
   .section__title {
     padding-left: 0;
@@ -615,7 +615,8 @@ ul.pkg__list {
     background-size: 85%;
     min-height: 765px;
     padding-top: 158px;
-    max-width: 1360px;
+    max-width: 1440px;
+    padding-bottom:280px;
     margin: 0 auto;
   }
   .hero__content {
@@ -651,7 +652,7 @@ ul.pkg__list {
     padding-bottom: 50px;
   }
   .yay .container {
-    max-width: 1360px;
+    max-width: 1440px;
     padding: 16px 0;
     overflow: hidden;
   }
@@ -824,7 +825,7 @@ ul.pkg__list {
     left: 0;
   }
   .what__card p.section__subtitle {
-    font-size: 15px;
+    font-size: 16px;
   }
   .what .ray {
     height: auto;
